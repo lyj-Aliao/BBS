@@ -1,0 +1,144 @@
+body{
+    font-size: 16px;
+    font-family: 微软雅黑;
+    margin: 0px;
+    background: #CB4042;
+}
+#nav{
+    z-index: 2000;
+    margin: 0px 0px auto;
+    height: 50px;
+    background:#33ff99;
+}
+.bar{
+    float:right;
+    width:4%;
+    text-align:center;
+    line-height: 55px;
+}
+.bar i{
+    display: inline-block;
+    color: black;
+    margin-top: 15px;
+}
+.bar a{
+    text-decoration:none;
+    display:block;
+    color:black;
+}
+.bar a:hover{
+    color:white;
+    background: #3399ff;
+    height: 100%;
+}
+.img{
+    margin-top: 20px;
+    width: 40%;
+    height: 40%;
+}
+#UserInfo{
+    position: fixed;
+    top: 18%;
+    left: 63%;
+    background-color: #fff;
+    width: 15%;
+    height: 31%;
+}
+#name{
+    height: 50px;
+    text-align:center;
+    line-height: 50px;
+}
+#picture-pane{
+    text-align:center;
+    margin:0 auto;
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+
+    /* 外阴影 */
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+#main{
+    position: relative;
+    width: 50%;
+    top: 430px;
+    left: 10%;
+}
+.context{
+    background-color: #fff;
+    border-bottom: #CB4042 2px solid;
+    min-height: 150px;
+    overflow: hidden;
+}
+.context_left{
+    background-color: #d6e8ee;
+    width: 15%;
+    min-height: 150px;
+}
+.context_right{
+    position: relative;
+    width: 85%;
+    left: 15%;
+}
+#post{
+    background-color: #fff;
+    width: 50%;
+    position: absolute;
+    top: 134px;
+    left: 10%;
+}
+#title{
+    background-color: #49ffb1;
+    font-size: 28px;
+    width: 100%;
+    line-height: 60px;
+}
+#content{
+    width: 100%;
+    min-height: 250px;
+    overflow: hidden;
+}
+#content .picture{
+    background-color: #c1dbff;
+    float: left;
+    width: 15%;
+    height: 250px;
+    text-align:center;
+}
+#SendComment_Main{
+    position: relative;
+    background-color: #ffffff;
+    width: 50%;
+    top: 480px;
+    left: 10%;
+}
+.clear{
+    clear:both;
+}
+#popDiv a:hover{
+    color: #fff;
+    background: #a5c8ff;
+    border-radius: 5px;
+}
+#popDiv{
+    position: relative;
+    z-index: 9999;
+    opacity:0.9;
+}
+#search{
+    background-color: #218f53;
+    color: white;
+    width: 300px;
+    height: 25px;
+    border: 0px;
+    border-radius:
+    20px;outline: none;
+}
+
+/* id 为 search 的 input 元素的 placeholder 颜色 */
+#search::-moz-placeholder { color: #33FF99; }
+#search::-webkit-input-placeholder { color:#33FF99; }
+#search:-ms-input-placeholder { color:#33FF99; }

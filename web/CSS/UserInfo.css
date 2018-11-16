@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background: #CB4042;
+}
+#out {
+    display: block;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 2000;		/* 元素堆叠置顶 */
+    top: 18%;
+    left: 10%;
+    padding: 6px;
+    border: 1px rgba(0,0,0,.4) solid;		/* 轮廓粗细 */
+    background-color: white;
+
+    /* 外阴影 */
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+#picture-pane{
+    text-align:center;
+    margin:0 auto;
+    width: 120px;
+    height: 120px;
+    top: 23%;
+    overflow: hidden;
+
+    /* 外阴影 */
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.main{
+     background-color: #fff;
+     border-radius: 5px;
+     width: 50%;
+     height: 100%;
+     position: relative;
+     top: 30%;
+     left: 10%;
+}
+#nav{
+    z-index: 2000;
+    margin: 0px 0px auto;
+    height: 50px;
+    background:#33ff99;
+}
+.bar{
+    float:left;
+    width:4%;
+    text-align:center;
+    height: 100%;
+    line-height: 55px;
+}
+.bar a{
+    text-decoration:none;
+    display:block;
+    height: 100%;
+    color:black;
+}
+.bar a:hover{
+    color:white;
+    background: #3399ff;
+    height: 100%;
+}
+
+/* div 切换 */
+.tab_div{
+    position: relative;
+    /*top: -16px;*/
+    border-radius: 5px;
+    height: 7%;
+    border-bottom: solid 2px #3399ff;
+}
+.tab_title li{
+    FLOAT: left;
+    CURSOR: pointer;
+    position: relative;
+    left: -4.2%;
+    line-height: 55px;
+    overflow: hidden;
+    width: 25%;
+    height: 100%;
+}
+.tab_title_div a{
+    text-align:center;
+    display: block;
+}
+.tab_title_div a:hover{
+    border-radius: 5px;
+    color:white;
+    background: #3399ff;
+}
+
+.tab_container{
+    float: bottom;
+    height: 40%;
+}
+.tab_content{
+    width: 100%;
+    height: 100%;
+}
+#popDiv a:hover{
+    color: #fff;
+    background: #a5c8ff;
+    border-radius: 5px;
+}
+#popDiv{
+    position: relative;
+    z-index: 9999;
+    opacity:0.9;
+}
+
+/*id 为 search 的 input 元素的 placeholder 颜色*/
+#search::-moz-placeholder { color: #33FF99; }
+#search::-webkit-input-placeholder { color:#33FF99; }
+#search:-ms-input-placeholder { color:#33FF99; }

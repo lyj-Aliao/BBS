@@ -1,0 +1,70 @@
+body{
+    background: #CB4042;
+}
+.main{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 300px;
+    height: 420px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.HiddenDiv{
+    display: none;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    border-radius: 10px;
+    width:95%;
+    height:85%;
+    background:rgba(0,0,0,0.5);
+}
+.sonHiddenDiv{
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width:320px;
+    height:450px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#pwStrongth
+{
+    position: absolute;
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    height: 4%;
+    width: 70%;
+}
+#innerprogress
+{
+    display: block;
+    height: 100%;
+    background-color:red;
+    border-radius: 5px;
+    width: 0%;
+}
+#modify_table{
+    width: 215px;
+    margin:0 auto;
+    border-collapse:separate;
+    border-spacing:5px 30px;
+}
+.login_table_text{
+    width: 250px;
+    height: 35px;
+}
+.modify_table_text{
+    width: 170px;
+    height: 30px;
+}

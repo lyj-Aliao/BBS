@@ -1,0 +1,67 @@
+body{
+    background: #CB4042;
+}
+.main{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 550px;
+    height: 620px;
+    position: absolute;
+    top: 14%;
+    left: 12%;
+    right: 0;
+}
+.main table{
+    width: 80%;
+    margin:0 auto;
+    border-collapse:separate;
+    border-spacing:0px 40px;
+}
+.main_table_text{
+    width: 270px;
+    height: 35px;
+}
+#HiddenDiv{
+    display: none;
+    margin: auto;
+    top: 0;left: 0;right: 0;bottom: 0;
+    position: fixed;
+    border-radius: 60px;
+    border: #000000 solid 4px;
+    width:85%;
+    height:80%;
+    background-color: #fff;
+}
+#HiddenDiv input{
+    position: absolute;
+    left: 38%;
+    top: 85%;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border: black solid 2px;
+    font-size: 20px;
+}
+#Hidden_content{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 400px;
+}
+#pwStrongth{
+    position: absolute;
+    left: 30%;
+    top: 63%;
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    height: 13px;
+    width: 270px;
+}
+#innerprogress
+{
+    display: block;
+    height: 100%;
+    background-color:red;
+    border-radius: 5px;
+    width: 0%;
+}
